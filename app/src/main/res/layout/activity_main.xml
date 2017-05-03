@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/main_layout_padding"
+    tools:context="com.example.compaq.musicalapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weighted_views"
+        android:layout_weight="4"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/melody_text"
+            style="@style/melodyNameStyle"
+            android:text="@string/melodies_name" />
+
+        <TextView
+            style="@style/melodyDetailsStyle"
+            android:text="@string/melodies_detailes" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_marginLeft="@dimen/divider_margins"
+            android:layout_marginRight="@dimen/divider_margins"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weighted_views"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/favorites"
+            style="@style/categoryStyle"
+            android:background="@color/colorPrimaryLight"
+            android:drawableLeft="@drawable/ic_action_thumb_up"
+            android:drawableStart="@drawable/ic_action_thumb_up"
+            android:text="@string/category_favorites" />
+
+        <TextView
+            android:id="@+id/mylists"
+            style="@style/categoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/ic_action_view_headline"
+            android:drawableStart="@drawable/ic_action_view_headline"
+            android:text="@string/category_lists" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weighted_views"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/recents"
+            style="@style/categoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/ic_action_repeat"
+            android:drawableStart="@drawable/ic_action_repeat"
+            android:text="@string/category_recent" />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/categoryStyle"
+            android:background="@color/colorPrimaryLight"
+            android:drawableLeft="@drawable/ic_action_headset"
+            android:drawableStart="@drawable/ic_action_headset"
+            android:text="@string/category_Albums" />
+    </LinearLayout>
+
+</LinearLayout>
