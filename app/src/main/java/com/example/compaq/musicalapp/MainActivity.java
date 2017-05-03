@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         melody.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent melodyIntent = new Intent(MainActivity.this, ListsActivity.class);
+                Intent melodyIntent = new Intent(MainActivity.this, MelodyActivity.class);
                 startActivity(melodyIntent);
             }
         });

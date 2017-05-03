@@ -21,7 +21,7 @@
 
         <TextView
             style="@style/melodyDetailsStyle"
-            android:text="@string/melodies_detailes" />
+            android:text="@string/melodies_details" />
 
         <View
             android:layout_width="match_parent"

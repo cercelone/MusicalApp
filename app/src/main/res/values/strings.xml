@@ -7,9 +7,10 @@
     <string name="playing">Currently playing</string>
     <string name="melodies_list">List of Melodies</string>
     <string name="melodies_name">Artist Name - Melody Name</string>
-    <string name="melodies_detailes">Album Name, details</string>
+    <string name="melodies_details">Album Name, details</string>
     <string name="albums_intent_description">This intent will contain a list of albums.</string>
     <string name="favorites_intent_description">This intent will contain a list of favorites melodies.</string>
     <string name="lists_intent_description">This intent will contain a list of customized lists of melodies.</string>
     <string name="recents_intent_description">This intent will contain a list of the last melodies listened.</string>
+    <string name="melody_intent_description">This intent will contain details about the selected melody from the main screen.</string>
 </resources>

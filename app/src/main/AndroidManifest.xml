@@ -27,7 +27,9 @@
             android:label="@string/category_recent" />
         <activity
             android:name=".AlbumsActivity"
-            android:label="@string/category_Albums"></activity>
+            android:label="@string/category_Albums" />
+        <activity android:name=".MelodyActivity"
+            android:label="Melody Details"/>
     </application>
 
 </manifest>

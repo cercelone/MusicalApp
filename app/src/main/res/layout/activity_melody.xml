@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.compaq.musicalapp.FavoritesActivity">
+    tools:context="com.example.compaq.musicalapp.MelodyActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/description_padding"
-        android:text="@string/favorites_intent_description"/>
+        android:text="@string/melody_intent_description"/>
 
 </android.support.constraint.ConstraintLayout>

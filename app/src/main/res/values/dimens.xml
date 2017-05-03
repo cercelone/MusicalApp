@@ -11,4 +11,5 @@
     <dimen name="melody_details_padding_left">56dp</dimen>
     <dimen name="melody_details_padding_right">16dp</dimen>
     <dimen name="melody_details_padding_bottom">16dp</dimen>
+    <dimen name="description_padding">16dp</dimen>
 </resources>
