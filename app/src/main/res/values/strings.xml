@@ -9,7 +9,7 @@
     <string name="melodies_name">Artist Name - Melody Name</string>
     <string name="melodies_details">Album Name, details</string>
     <string name="albums_intent_description">This intent will contain a list of albums. The albums will be listed as folders and when the user clicks on an album he will be redirected to a new activity that contains the melodies in that album.</string>
-    <string name="favorites_intent_description">This intent will contain a list of favorites melodies. In this activity the user will have the posibilities to listen to the melodies listed here.</string>
+    <string name="favorites_intent_description">This intent will contain a list of favorites melodies. In this activity the user will have the possibilities to listen to the melodies listed here. All the albums will be found in MediaStore.Audio class.</string>
     <string name="lists_intent_description">This intent will contain a list of customized lists of melodies. The lists will be listed the same as the albums.</string>
     <string name="recents_intent_description">This intent will contain a list of the last melodies listened. This list will have a maximum number of melodies and the user will have the posibility to play all the melodies listed here.</string>
     <string name="melody_intent_description">This intent will contain details about the selected melody from the main screen. Here, the user will play, pause, etc. the melody and can select to return to the main screen.</string>
