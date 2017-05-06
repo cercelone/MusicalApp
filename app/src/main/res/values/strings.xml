@@ -8,9 +8,22 @@
     <string name="melodies_list">List of Melodies</string>
     <string name="melodies_name">Artist Name - Melody Name</string>
     <string name="melodies_details">Album Name, details</string>
-    <string name="albums_intent_description">This intent will contain a list of albums. The albums will be listed as folders and when the user clicks on an album he will be redirected to a new activity that contains the melodies in that album.</string>
-    <string name="favorites_intent_description">This intent will contain a list of favorites melodies. In this activity the user will have the possibilities to listen to the melodies listed here. All the albums will be found in MediaStore.Audio class.</string>
+    <string name="first_page_description">Here will be listed the last songs loaded by the user. \n A ListView will be needed here for the list of songs.
+    \n\n MediaPlayer class will be used to playback when a user selects a song.
+    </string>
+    <string name="albums_intent_description">This intent will contain a list of albums. The albums will be listed as folders and when the user clicks on an album he will be redirected to a new activity that contains the melodies in that album.\n\n I believe that for this section I need to use ListView to list all the albums created by user and saved in a folder specific created for this purpose in the app.
+        \n\n All the songs will be from the phone\'s memory or SDCard.
+    </string>
+    <string name="favorites_intent_description">This intent will contain a list of favorites melodies. In this activity the user will have the possibilities to listen to the melodies listed here. All the albums will be found in MediaStore.Audio class.
+    \n\n I will use ListView for the list of songs and Media PLayer Class for playback.
+    </string>
     <string name="lists_intent_description">This intent will contain a list of customized lists of melodies. The lists will be listed the same as the albums.</string>
-    <string name="recents_intent_description">This intent will contain a list of the last melodies listened. This list will have a maximum number of melodies and the user will have the posibility to play all the melodies listed here.</string>
-    <string name="melody_intent_description">This intent will contain details about the selected melody from the main screen. Here, the user will play, pause, etc. the melody and can select to return to the main screen.</string>
+    <string name="recent_intent_description">This intent will contain a list of the last melodies listened. This list will have a maximum number of melodies and the user will have the possibility to play all the songs listed here.
+    \n\n ListView will also be used here for the list of songs. Media PLayer class will also be used for playback of the songs.
+    </string>
+    <string name="melody_intent_description">This intent will contain details about the selected melody from the main screen.
+        \n\n Here, the user will play, pause, etc. the melody and can select to return to the main screen or add the song to the favorites.
+    \n\n For the playback Media Player class will be used and for the user to have control over the song MediaController class will be used.</string>
+    <string name="add_album_text">Add new album</string>
+    <string name="add_list_text">Add new list</string>
 </resources>

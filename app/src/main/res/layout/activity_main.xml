@@ -14,6 +14,7 @@
         android:background="@android:color/background_light"
         android:orientation="vertical">
 
+
         <TextView
             android:id="@+id/melody_text"
             style="@style/melodyNameStyle"
@@ -26,9 +27,15 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/divider_height"
+            android:layout_marginBottom="@dimen/divider_margins"
             android:layout_marginLeft="@dimen/divider_margins"
             android:layout_marginRight="@dimen/divider_margins"
             android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_page_description" />
 
     </LinearLayout>
 
