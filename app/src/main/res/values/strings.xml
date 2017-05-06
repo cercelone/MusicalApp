@@ -4,7 +4,6 @@
     <string name="category_lists">My Lists</string>
     <string name="category_recent">Recent Melodies</string>
     <string name="category_Albums">Albums</string>
-    <string name="playing">Currently playing</string>
     <string name="melodies_list">List of Melodies</string>
     <string name="melodies_name">Artist Name - Melody Name</string>
     <string name="melodies_details">Album Name, details</string>
